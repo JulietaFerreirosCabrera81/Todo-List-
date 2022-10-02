@@ -1,0 +1,86 @@
+.tarea-contenedor {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:2px;
+    margin-top:10px;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: rgb(195, 154, 234);
+    color:rgb(10, 1, 18);
+    border-radius:7px;
+    border: 1px solid white;
+}
+
+.tarea-completado {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:2px;
+    margin-top:10px;
+    max-width: 300px;
+    max-height: 300px;
+    color:rgb(10, 1, 18);
+    border-radius:7px;
+    border: 1px solid white;
+    text-decoration: line-through;
+    background-color:rgb(79, 73, 86) ;
+}
+
+.nombre {
+    margin-top:4px;
+    padding: 4px;
+    line-height: 18px;
+    color:rgb(10, 1, 18);
+    font-weight: bold;
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.descripcion {
+    padding:4px;
+    margin-top:4px;
+    line-height: 18px;
+    color:rgb(10, 1, 18);
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.boton {
+    align-content: center;
+    justify-content: center;
+    margin: 5px 15px 5px 15px;
+    background-color: rgb(154, 78, 225);
+    border-radius: 20%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+}
+
+button:hover {
+    border-color: #c48af7;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.icono {
+    color: rgba(255, 255, 255, 0.87);
+    justify-items: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin:0px;
+}
+
+     
